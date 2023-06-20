@@ -1,0 +1,1158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.foot1{
+    border-bottom: 2px solid rgb(169, 165, 165);
+    padding: 15px;
+    width: 600px;
+    
+}
+
+.submit button{
+    padding: 10px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.home-container{
+    display: flex;
+}
+
+.cle li a{
+    padding: 20px;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+
+nav li{
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.active:hover{
+    color: goldenrod;
+}
+
+.miracle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.introduce h6{
+    font-size: 18px;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.introduce h2{
+    width: 350px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    font-size: 30px;
+    /* color: white; */
+    font-weight: 700;
+    text-shadow: 3px 3px 7px black;
+
+}
+
+.introduce p{
+    width: 320px;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 7px black;
+}
+
+.introduce button{
+    padding: 10px;
+    border: 0.1px solid gold;
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.introduce i{
+    margin-left: 40px;
+    padding: 15px;
+}
+
+.flower1 img{
+ width: 450px;
+ height: 350px; 
+}
+
+.service-container{
+    margin-top: 50px;
+}
+
+.service-container h6{
+    font-size: 15px;
+    margin: 0px 0px 20px 60px;
+    color: gold;
+    
+}
+
+.service-container h3{
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container i{
+    /* display: flex; */
+    /* justify-content: center; */
+    font-size: 30px;
+    background-color: goldenrod;
+    padding: 15px;
+    border-radius: 200px;
+    margin-bottom: 40px;
+}
+
+.container h4{
+    font-size: 25px;
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 12px;
+    font-weight: 10;
+    letter-spacing: 1px;
+}
+
+.container p{
+    width: 150px;
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 25px;
+
+}
+.youtube img{
+  width: 450px;
+  height: 350px;  
+}
+
+.youtube{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.collect h6{
+    font-size: 15px;
+    color: gold;
+    margin: 60px 0px 15px 0px ; 
+}
+
+.collect h2{
+
+    width: 350px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 3px 3px 7px black;
+  
+}
+
+.collect p{
+    width: 320px;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 7px black;
+
+}
+
+.collect button{
+    padding: 10px;
+    border: 0.1px solid gold;
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.collect i{
+    margin-left: 30px;
+    padding: 15px;   
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.product img{
+    width: 450px;
+    height: 350px;
+}
+
+.product h6{
+    font-size: 15px;
+    color: gold;
+    margin: 60px 0px 15px 0px ;    
+}
+
+.product h2{
+    width: 280px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700;    
+}
+
+.product p{
+    width: 300px;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 30px;  
+}
+
+.product i{
+    margin-left: 30px;
+    padding: 15px; 
+    font-size: 35px;
+    border: 2px solid rgb(79, 73, 73);
+    border-radius: 50%;
+}
+
+.massage{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    position: relative;
+    color: white;
+}
+
+.massage img{
+    width: 500px;
+    height: 350px;
+}
+
+.massage h2{
+    margin: 20px 0px 15px 0px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700; 
+    text-shadow: 3px 3px 7px black;
+
+}
+
+.massage p{
+    width: 300px;
+    line-height: 22px;
+    font-size: 15px;
+    text-shadow: 3px 3px 7px black;
+
+}
+
+.massage i{
+    position: absolute;
+    font-size: 30px;
+
+}
+.skincare img{
+    width: 500px;
+    height: 350px;
+}
+
+.skincare{
+display: flex;
+justify-content: space-evenly;
+color: white;
+padding: 40px 0px 30px 0px;
+position: relative;
+
+}
+
+.skincare h2{
+    margin: 25px 0px 15px 0px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700; 
+    text-shadow: 3px 3px 7px black;
+
+}
+
+.skincare p{
+    width: 300px;
+    line-height: 22px;
+    font-size: 15px;
+    text-shadow: 3px 3px 7px black;
+
+}
+
+.span1 i{
+   position: absolute;
+   font-size: 30px;
+   left: 600px;
+   top: 480px; 
+}
+.span2 i{
+    position: absolute;
+    font-size: 30px;
+    right: 200px;
+    top: 480px; 
+ }
+ .span3 i{
+    position: absolute;
+    font-size: 30px;
+    left: 600px;
+    top: 450px; 
+ }
+ .span4 i{
+    position: absolute;
+    font-size: 30px;
+    right: 150px;
+    top: 450px; 
+ }
+
+
+.max{
+    position: relative;
+    top: 100px;
+    max-width: 1000px;
+    height: 350px;
+    /* background-color: rgb(0.3px, 0.3px, 0.3px, 0.8px); */
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #636262;
+    margin: auto;
+
+}
+
+/* .max-email{
+    text-align: center;
+} */
+
+.max-email h2{
+    font-size: 13px;
+    padding-top: 50px;
+    color: gold;
+    margin-left: 40px;
+
+    
+}
+
+.max-email p{
+    font-size: 30px;
+    margin-top: 30px;
+    line-height: 40px;
+    width: 300px;
+    margin-left: 40px;
+    color: white;
+    text-shadow: 3px 3px 7px black;
+
+    
+}
+
+.max-email input{
+    padding: 25px;
+    width: 270px;
+    position: relative;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.max-email button{
+    padding: 8px;
+    position: absolute;
+    left: 330px;
+    top: 235px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+}
+.image-sou img{
+    width: 300px;
+    height: 350px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    color: white;
+}
+
+.media h4{ 
+font-size: 25px;
+margin-bottom: 30px;
+}
+
+.media a{
+    font-size: 20px;
+    padding: 7px;
+    /* color: darkblue; */
+    border: 1px solid white;
+    margin-right: 15px;
+    border-radius: 700px;
+    background-color: white;
+}
+
+.about-us h4{
+    font-size: 25px;
+    margin-bottom: 30px;  
+}
+.about-us p{
+    font-size: 15px;
+    padding: 8px 0px;
+}
+
+.special-link h4{
+    font-size: 25px;
+    margin-bottom: 30px;    
+}
+
+.special-link p{
+    font-size: 15px;
+    padding: 8px 0px;  
+}
+
+.contact-us h4{
+    font-size: 25px;
+    margin-bottom: 30px;   
+}
+
+.contact-us p{
+    font-size: 15px;
+    padding: 8px 0px;   
+}
+
+@media(max-width: 1224px){
+    .span1 i{
+        position: absolute;
+        font-size: 30px;
+        left: 500px;
+        top: 480px; 
+     }
+     .span2 i{
+         position: absolute;
+         font-size: 30px;
+         right: 200px;
+         top: 480px; 
+      }
+      .span3 i{
+         position: absolute;
+         font-size: 30px;
+         left: 500px;
+         top: 450px; 
+      }
+      .span4 i{
+         position: absolute;
+         font-size: 30px;
+         right: 150px;
+         top: 450px; 
+      }
+}
+@media(max-width: 1150px){
+    .span1 i{
+        position: absolute;
+        font-size: 30px;
+        left: 400px;
+        top: 480px; 
+     }
+  
+      .span3 i{
+         position: absolute;
+         font-size: 30px;
+         left: 400px;
+         top: 450px; 
+      }  
+}
+@media(max-width: 1094px){
+    .skincare img{
+        width:400px;
+        height: 300px;
+    }
+    .massage img{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media(max-width: 1008px){
+    .foot1{
+        border-bottom: 2px solid rgb(169, 165, 165);
+        padding: 15px;
+        width: 400px;
+        
+    }  
+}
+/* @media(max-width: px){
+    .span1 i{
+        left: 500px;
+        top: 480px; 
+     }
+     .span2 i{
+         right: 200px;
+         top: 480px; 
+      }
+      .span3 i{
+         left: 500px;
+         top: 450px; 
+      }
+      .span4 i{
+       
+         right: 150px;
+         top: 450px; 
+      }
+} */
+@media(max-width: 999px){
+    .massage h2{
+        font-size: 25px;
+        font-weight: 700; 
+    }
+    .skincare h2{
+        font-size: 25px;
+        font-weight: 700; 
+    }
+}
+@media(max-width: 956px){
+    .max-email button{
+        left: 320px;
+       
+    }
+}
+@media(max-width: 916px){
+    .max-email button{
+        left: 310px;   
+    }
+    .skincare img{
+        width:350px;
+        height: 250px;
+    }
+    .massage img{
+        width: 350px;
+        height: 250px;
+    }
+    .span1 i{
+        font-size: 30px;
+        left: 380px;
+        top: 370px; 
+     }
+  
+      .span3 i{
+         font-size: 30px;
+         left: 380px;
+         top: 370px; 
+      } 
+      .span2 i{
+        right: 70px;
+        top: 380px; 
+     }
+    
+     .span4 i{
+        right: 60px;
+        top: 380px; 
+     }
+}
+@media(max-width: 884px){
+    .max-email button{
+        left: 300px;   
+    }
+    .flower1 img{
+        width: 350px;
+        height: 350px; 
+       }
+       .youtube img{
+        width: 350px;
+        height: 350px;  
+      }
+      .product img{
+        width: 350px;
+        height: 350px;
+    }
+    .media h4{ 
+        font-size: 20px;
+        margin-bottom: 30px;
+        }
+        .about-us h4{
+            font-size: 20px;
+            margin-bottom: 30px;  
+        }
+        .special-link h4{
+            font-size: 20px;
+            margin-bottom: 30px;    
+        }
+        .contact-us h4{
+            font-size: 20px;
+            margin-bottom: 30px;   
+        }
+}
+@media(max-width: 833px){
+    .max-email button{
+        left: 290px;   
+    }
+    .span1 i{
+        font-size: 30px;
+        left: 350px;
+        top: 370px; 
+     }
+  
+      .span3 i{
+         font-size: 30px;
+         left: 350px;
+         top: 370px; 
+      }  
+      .media a{
+        font-size: 15px;
+        border: 1px solid white;
+        margin-right: 10px;
+     
+    }  
+    .massage p{
+        width: 250px;
+        line-height: 22px;
+        font-size: 15px;
+    }
+    .skincare p{
+        width: 250px;
+        line-height: 22px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 808px){
+    .foot1{
+        padding: 15px;
+        width: 300px;
+        
+    }  
+}
+@media(max-width: 793px){
+    .max-email button{
+        left: 280px;   
+    } 
+}
+@media(max-width: 756px){
+    .max-email button{
+        left: 270px;   
+    }
+    .span1 i{
+        font-size: 30px;
+        left: 330px;
+        top: 370px; 
+     }
+  
+      .span3 i{
+         font-size: 30px;
+         left: 330px;
+         top: 370px; 
+      }  
+      .introduce h2{
+        width: 300px;
+        font-size: 25px;
+    }
+    
+.introduce p{
+    width: 270px;
+    font-size: 15px;
+}
+
+.introduce button{
+    padding: 7px;
+}
+
+.introduce i{
+    margin-left: 40px;
+    padding: 10px;
+}
+.flower1 img{
+    width: 300px;
+    height: 350px; 
+   }
+   .youtube img{
+    width: 300px;
+    height: 350px;  
+  }
+  .product img{
+    width: 300px;
+    height: 350px;
+}
+.collect h2{
+
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 25px; 
+}
+
+.collect p{
+    width: 270px;
+    font-size: 15px;
+}
+
+.collect button{
+    padding: 7px;
+}
+
+.collect i{
+    margin-left: 20px;
+    padding: 10px;   
+}
+
+.skincare img{
+    width:300px;
+    height: 250px;
+}
+.massage img{
+    width: 300px;
+    height: 250px;
+}
+}
+@media(max-width: 708px){
+    .max-email button{
+        left: 260px;  
+        top: 230px;
+ 
+    }  
+    .max-email input{
+        padding: 20px;
+        width: 270px;
+        font-size: 15px; 
+        margin-left: 40px;
+    } 
+    .max-email p{
+        font-size: 25px;
+        width: 250px; 
+    }
+    .we h1{
+        font-size: 25px;
+    }
+    .foot1{
+        padding: 15px;
+        width: 250px; 
+    }  
+}
+@media(max-width: 696px){
+
+.miracle{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.flower1{
+    width: 100%;
+    margin-top: 50px;
+}
+.introduce h2 p{
+    width: 100%;
+
+}
+.massage{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.photo1 h2  {
+    width: 100%;
+}
+.photo2 h2 {
+    width: 100%;
+}
+.photo1 p  {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.photo2 p {
+    width: 100%;
+}
+
+.skincare {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.photo3 h2  {
+    width: 100%;
+}
+.photo3 p  {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.photo4 p {
+    width: 100%;
+}
+.span1 i{
+    left: 570px;
+    top: 350px; 
+ }
+ .span2 i{
+     right: 100px;
+     top: 750px; 
+  }
+  .span3 i{
+     left:570px;
+     top: 350px; 
+  }
+  .span4 i{
+   
+     right: 100px;
+     top: 750px; 
+  }
+  .skincare p{
+    width: 350px;
+    font-size: 15px;
+
+}
+.massage p{
+    width: 350px;
+    font-size: 15px;
+}
+.we h1{
+    font-size: 28px;
+    padding-top: 30px;
+}
+.max-email button{
+    left: 50px;  
+    top: 300px;
+    position: absolute;
+
+}  
+.max-email input{
+    padding: 20px;
+    width: 200px;
+    font-size: 15px; 
+    margin-left: 10px;
+    position: relative;
+} 
+
+.max-email p{
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 40px;
+    width: 250px;
+    margin-left: 10px;
+}
+.max-email h2{
+    margin-left: 10px;    
+}
+.container{
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.fa1 h4 {
+    width: 50%;
+}
+.fa2 h4 {
+    width: 50%;
+}
+
+.fa3 h4 {
+    width: 50%;
+}
+.fa4  h4 {
+    width: 50%;
+}
+.service-container h6{
+    font-size: 15px;
+    margin: 0px 0px 20px 60px;
+    color: gold;
+    text-align: center;
+    
+}
+
+.service-container h3{
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.youtube{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.tube{
+    width: 100%;
+}
+.collect h2 p{
+    width: 100%;
+}
+.product{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.duct{
+    width: 100%;
+}
+.beauty h2 p{
+    width: 100%;
+}
+
+.product i{
+    margin-left: 10px;
+    padding: 10px; 
+    font-size: 30px;
+  margin-bottom: 50px;
+}
+nav{
+    flex-wrap: wrap;
+}
+/* .cle{
+    display: block;
+}
+.icons{
+    display: block;
+}
+.home-container{
+    display: block;
+}
+.nav ul{
+    display: block;
+} */
+}
+@media(max-width: 696px){
+    .footer{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .media{
+        width: 100%;
+        margin: 40px 0px;
+    }
+    .about-us{
+        width: 100%;
+        margin-bottom: 40px;
+   
+    }
+    .special-link{
+        width: 100%;
+        margin-bottom: 40px;
+
+    }
+    .contact-us{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .about-us h4{
+        margin-bottom: 15px;
+    }
+    .special-link h4{
+       margin-bottom: 15px;
+    }
+    .contact-us h4{
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 658px){
+    .foot{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+.foot1{
+  width: 100%;   
+}
+.submit button{
+  width: 40%;
+}
+.span1 i{
+    left: 550px;
+    top: 350px; 
+ }
+
+  .span3 i{
+     left:550px;
+     top: 350px; 
+  }
+}
+@media(max-width: 618px){
+    .span1 i{
+        left: 490px;
+        top: 350px; 
+     }
+    
+      .span3 i{
+         left:490px;
+         top: 350px; 
+      }  
+}
+@media(max-width: 590px){
+    .max-email button{
+        left: 30px;  
+        top: 300px;
+        position: absolute;
+    
+    }  
+    .max-email input{
+        padding: 20px;
+        width: 170px;
+        font-size: 15px; 
+        position: relative;
+    } 
+    
+    .max-email p{
+        font-size: 15px;
+        margin-top: 30px;
+        line-height: 40px;
+        width: 200px;
+        margin-left: 10px;
+    }
+    .max-email h2{
+        margin-left: 10px;    
+    }  
+    .image-sou img{
+        width: 120px;
+        height: 350px;
+        margin-right: 100px;
+    }
+}
+@media(max-width: 590px){
+    .span1 i{
+        left: 440px;
+        top: 350px; 
+     }
+    
+      .span3 i{
+         left:440px;
+         top: 350px; 
+      }    
+}
+@media(max-width: 516px){
+    .image-sou img{
+        width: 120px;
+        height: 350px;
+        margin-right: 70px;
+    }
+    .span1 i{
+        left: 400px;
+        top: 350px; 
+        display: none;
+     }
+    
+      .span3 i{
+         left:400px;
+         top: 350px;
+         display: none; 
+      }  
+      .span2 i{
+        display: none;
+      }
+      .span4 i{
+        display: none;
+      }
+      .service-container h3{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        width: 250px;
+        margin: auto;
+        margin-bottom: 40px;
+    }  
+    .service-container h6{
+        font-size: 15px;
+        margin: 0px 0px 20px 60px;
+        color: gold;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 460px){
+    .image-sou img{
+        width: 120px;
+        height: 350px;
+        margin-right: 40px;
+    }
+    .home-container li{
+        font-size: 15px;
+        padding: 10px;
+    }
+   
+}
+@media(max-width: 402px){
+    .image-sou img{
+        width: 120px;
+        height: 350px;
+        margin-right: 20px;
+    }
+}
+@media(max-width: 360px){
+  
+    .home-container li{
+        font-size: 15px;
+        padding: 5px;
+    }
+   
+}
+@media(max-width: 360px){
+    .skincare h2{
+        margin: 25px 0px 15px 0px;
+        line-height: 35px;
+        font-size: 20px;
+        font-weight: 700; 
+        width: 150px;
+        margin: auto;
+    
+    }
+    
+    .skincare p{
+        width: 200px;
+        line-height: 22px;
+        font-size: 15px;
+margin: auto;    
+    }
+    .massage h2{
+        margin: 20px 0px 15px 0px;
+        line-height: 35px;
+        font-size: 20px;
+        font-weight: 700; 
+        width: 150px;
+        margin: auto;
+    }
+    
+    .massage p{
+        width: 300px;
+        line-height: 22px;
+        font-size: 15px;
+        width: 150px;
+        margin: auto;
+    }
+    .we h1{
+        font-size: 18px;
+        font-weight: 800;
+    }
+  
+}
